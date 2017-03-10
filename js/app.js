@@ -212,6 +212,13 @@ function showPop(id){
               pop.find(".event-photo").show();
               pop.find(".event-photo img").attr("src",value);
               pop.find(".large-photo .photo").css("background-image","url(" + value + ")");
+
+              pop.find("img").one("load",function(){
+                $(this).show();
+              }).error(function(){
+                $(this).hide();
+              })
+
             }
           }
 
@@ -403,8 +410,7 @@ function displayEvents(){
 
       if(j == "event-photo") {
         if(value) {
-          itemEl.find(".top").removeClass("no-photo");
-          itemEl.find(".top").css("background-image","url("+value+")");
+          itemEl.find(".top-photo").css("background-image","url("+value+")");
         }
       }
 
@@ -414,7 +420,6 @@ function displayEvents(){
         }
       }
     }
-    // $(".participant-count").text(numberWithCommas(participants));
   }
 
   updateCounts();
