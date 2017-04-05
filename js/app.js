@@ -3,7 +3,7 @@
 var dayNames = ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"];
 var monthNames = ["January","February","March","April","May","June","July","August","September","October","November","December"];
 var rawData;
-var data = []; // THIS STORES IT ALLLLLLLLL muahawhwhwhwhwahaha ALL OF IT.
+var data = [];
 
 var touchEnabled = false;
 
