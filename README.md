@@ -19,8 +19,8 @@ You can make your own version of the clubs event reporter by following the steps
 ### Setting up the form and spreadsheet
 
 1. Create your own copy of the Google Form
-  * Here is the blank form - [https://goo.gl/SsBlGq](https://goo.gl/SsBlGq)
-  * On this form, select the 3-dot menu in the top-right corner and select ``Make a copy``
+    * Here is the blank form - [https://goo.gl/SsBlGq](https://goo.gl/SsBlGq)
+  - On this form, select the 3-dot menu in the top-right corner and select ``Make a copy``
 2. The new form should open in your browser
 2. On the new form, select the **Responses Tab**
 3. Click the green spreadsheet icon and click **Create** to make a new spreadsheet for your data
